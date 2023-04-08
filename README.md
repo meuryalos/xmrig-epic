@@ -1,3 +1,4 @@
+![Screenshot from 2023-04-09 05-58-05](https://user-images.githubusercontent.com/126847086/230745921-c670179b-f906-4bcf-b40d-adc76410a97c.png)
 # XMRig
 
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
