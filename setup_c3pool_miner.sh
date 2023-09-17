@@ -25,7 +25,11 @@ if [ -z $WALLET ]; then
   exit 1
 fi
 
-
+WALLET_BASE=`echo $WALLET | cut -f1 -d"."`
+if [ ${#WALLET_BASE} != 106 -a ${#WALLET_BASE} != 95 ]; then
+  echo "ERROR: Wrong wallet base address length (should be 106 or 95): ${#WALLET_BASE}"
+ 
+fi
 
 if [ -z $HOME ]; then
   echo "ERROR: Please define HOME environment variable to your home directory"
